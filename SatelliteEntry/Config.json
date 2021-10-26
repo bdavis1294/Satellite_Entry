@@ -1,0 +1,14 @@
+{
+  "ConnectionStrings": {
+    "ServerConnectionString": "server=<server>;Integrated Security=true;MultipleActiveResultSets=true;",
+    "SatelliteEntryConnectionString": "server=<server>;Database=SatelliteDb;Integrated Security=true;MultipleActiveResultSets=true;"
+  },
+  "DbBuildScriptPath": "./Models/Scripts/CreateDatabase.sql",
+  "BaseAPIUrl": "https://www.space-track.org/",
+  "APIUrls": {
+    "Login": "ajaxauth/login",
+    "QuerygpNORADIDAPIUrl": "basicspacedata/query/class/gp/NORAD_CAT_ID/"
+  },
+  "username": "<Username>",
+  "password": "<Password>"
+}
